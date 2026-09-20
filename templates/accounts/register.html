@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Register · Exam Simulation{% endblock %}{% block content %}<h1>Student registration</h1><form method="post">{% csrf_token %}{{ form.as_p }}<button>Create account</button></form>{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}{% block title %}Import questions{% endblock %}{% block content %}<h1>Bulk question import</h1><div class="panel"><p>Upload UTF-8 TXT, Markdown, DOCX, or text-based PDF (maximum 5 MB).</p><pre>QUESTION: What is 2 + 2?
+OPTION: 1
+OPTION: 2
+OPTION: 3
+OPTION: 4
+ANSWER: 4
+EXPLANATION: Addition gives four.
+---</pre><form method="post" enctype="multipart/form-data">{% csrf_token %}{{ form.as_p }}<button>Validate and preview</button></form></div>{% if preview %}<section><h2>Preview</h2>{% if preview.errors %}<div class="errors"><h3>Fix these errors</h3><ul>{% for error in preview.errors %}<li>Line {{ error.line }}: {{ error.message }}</li>{% endfor %}</ul></div>{% else %}<p>{{ preview.questions|length }} valid question(s).</p>{% if duplicate_warnings %}<div class="warning"><strong>Possible duplicates already in the question bank:</strong><ul>{% for text in duplicate_warnings %}<li>{{ text }}</li>{% endfor %}</ul></div>{% endif %}{% for question in preview.questions %}<article class="question"><h3>{{ question.text }}</h3><ol>{% for option in question.options %}<li>{{ option }}{% if forloop.counter == question.correct_index %} <strong>(correct)</strong>{% endif %}</li>{% endfor %}</ol></article>{% endfor %}<form method="post" action="{% url 'question_imports:confirm' %}">{% csrf_token %}<button>Confirm import</button></form>{% endif %}</section>{% endif %}{% endblock %}

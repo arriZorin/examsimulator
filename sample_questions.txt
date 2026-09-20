@@ -1,0 +1,16 @@
+QUESTION: What is the capital of France?
+OPTION: Berlin
+OPTION: Madrid
+OPTION: Paris
+OPTION: Rome
+ANSWER: 3
+EXPLANATION: Paris is the capital of France.
+---
+QUESTION: Which protocol secures HTTP traffic?
+OPTION: FTP
+OPTION: HTTPS
+OPTION: SMTP
+OPTION: Telnet
+OPTION: SSH
+ANSWER: 2
+EXPLANATION: HTTPS transports HTTP over TLS.
