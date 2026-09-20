@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.urls import reverse
 
-from exams.models import Question
+from exams.models import Exam, ExamQuestion, Question
 
 CONTENT = b"""QUESTION: Sky color?
 OPTION: Green
@@ -25,7 +25,13 @@ def test_staff_previews_and_confirms_import(client):
     assert b"Sky color" in response.content
     response = client.post(reverse("question_imports:confirm"))
     assert response.status_code == 302
-    assert Question.objects.filter(text="Sky color?").count() == 1
+    question = Question.objects.get(text="Sky color?")
+    exam = Exam.objects.get()
+    assert exam.title == "Q"
+    assert exam.is_published
+    assert exam.created_by == staff
+    assert ExamQuestion.objects.filter(exam=exam, question=question, position=1).exists()
+    assert b"Q" in client.get(reverse("exams:list")).content
 
 
 @pytest.mark.django_db

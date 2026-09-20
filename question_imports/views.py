@@ -76,5 +76,8 @@ def confirm(request):
         items=payload["items"], user=request.user, filename=payload["filename"], exam=exam
     )
     request.session.pop(SESSION_KEY, None)
-    messages.success(request, f"Imported {batch.question_count} question(s).")
+    messages.success(
+        request,
+        f'Imported {batch.question_count} question(s) into exam "{batch.exam.title}".',
+    )
     return redirect("question_imports:upload")

@@ -27,30 +27,45 @@ class ParseResult:
 
 
 PREFIX = re.compile(r"^(QUESTION|OPTION|ANSWER|EXPLANATION)\s*:\s*(.*)$", re.IGNORECASE)
+NUMBERED_QUESTION = re.compile(r"^\d+[.)]\s+(.+)$")
+LETTERED_OPTION = re.compile(r"^[A-Za-z][.)]\s+(.+)$")
 
 
 def parse_questions(text):
     result = ParseResult()
     current = None
     section = None
+    natural_format = False
     for number, raw in enumerate(text.splitlines(), 1):
         line = raw.strip()
         if not line or line == "---":
             continue
         match = PREFIX.match(line)
         if not match:
-            if current is not None and section == "EXPLANATION":
+            numbered_question = NUMBERED_QUESTION.match(line)
+            lettered_option = LETTERED_OPTION.match(line)
+            if numbered_question and (current is None or current["answer_seen"]):
+                key, value = "QUESTION", numbered_question.group(1).strip()
+                natural_format = True
+            elif natural_format and lettered_option and current is not None:
+                key, value = "OPTION", lettered_option.group(1).strip()
+            elif natural_format and current is not None and section == "QUESTION":
+                current["text"] = "\n".join(part for part in (current["text"], line) if part)
+                continue
+            elif current is not None and section == "EXPLANATION":
                 current["explanation"] = "\n".join(
                     part for part in (current["explanation"], line) if part
                 )
+                continue
             else:
                 result.errors.append(
                     ParseError(
                         number, "Expected QUESTION:, OPTION:, ANSWER:, EXPLANATION:, or ---."
                     )
                 )
-            continue
-        key, value = match.group(1).upper(), match.group(2).strip()
+                continue
+        else:
+            key, value = match.group(1).upper(), match.group(2).strip()
         section = key
         if key == "QUESTION":
             if current is not None:

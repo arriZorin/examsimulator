@@ -10,7 +10,7 @@ class ImportUploadForm(forms.Form):
     exam = forms.ModelChoiceField(
         queryset=Exam.objects.all(),
         required=False,
-        help_text="Optionally add imported questions to this exam.",
+        help_text="Choose an existing exam, or leave blank to create and publish a new exam.",
     )
 
     def clean_file(self):
