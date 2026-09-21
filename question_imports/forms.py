@@ -2,11 +2,12 @@ from pathlib import Path
 
 from django import forms
 
-from exams.models import Exam
+from exams.models import Exam, Question
 
 
 class ImportUploadForm(forms.Form):
     file = forms.FileField(help_text="TXT, MD, DOCX, or PDF; maximum 5 MB")
+    category = forms.ChoiceField(choices=Question.Category.choices)
     exam = forms.ModelChoiceField(
         queryset=Exam.objects.all(),
         required=False,

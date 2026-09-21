@@ -7,12 +7,14 @@ from django.core.exceptions import ValidationError
 from django.urls import reverse
 from django.utils import timezone
 
-from exams.models import Exam, ExamQuestion, Option, Question
+from exams.models import Exam, ExamCategory, Option, Question
 from exams.services import finalize_attempt, save_answer, start_attempt
 
 
 def build_exam(*, title="Math", duration=15, **kwargs):
-    question = Question.objects.create(text="2 + 2?", explanation="Basic addition")
+    question = Question.objects.create(
+        text="2 + 2?", explanation="Basic addition", category=Question.Category.HOTS
+    )
     for position, text in enumerate(["3", "5", "4", "6"], 1):
         Option.objects.create(
             question=question,
@@ -27,7 +29,7 @@ def build_exam(*, title="Math", duration=15, **kwargs):
         is_published=True,
         **kwargs,
     )
-    ExamQuestion.objects.create(exam=exam, question=question, position=1, points=2)
+    ExamCategory.objects.create(exam=exam, category=Question.Category.HOTS, question_count=1)
     return exam
 
 
@@ -42,7 +44,8 @@ def test_student_can_complete_exam_and_see_history(client):
     save_answer(attempt, attempt_question, attempt_question.options.get(position=3))
     finalize_attempt(attempt)
     attempt.refresh_from_db()
-    assert attempt.score == Decimal("2.00")
+    assert attempt.score == Decimal("100.00")
+    assert attempt.maximum_score == Decimal("100.00")
     assert attempt.percentage == Decimal("100.00")
     assert client.get(reverse("exams:result", args=[attempt.pk])).status_code == 200
     assert b"100.00%" in client.get(reverse("accounts:dashboard")).content
@@ -57,6 +60,71 @@ def test_question_requires_four_options_and_one_correct():
         )
     with pytest.raises(ValidationError):
         question.validate_options()
+
+
+def test_question_categories_have_required_values_and_labels():
+    assert Question.Category.choices == [
+        ("vocabulary", "Vocabulary in Context"),
+        ("grammar", "Grammar Challenge"),
+        ("expression", "Functional Expression"),
+        ("reading", "Reading Comprehension"),
+        ("cloze", "Cloze Test"),
+        ("sentence", "sentence arrangement and logic"),
+        ("synonym_antonym", "Synonym Antonym Formation"),
+        ("hots", "HOTS & Olympiad Challenge"),
+    ]
+
+
+@pytest.mark.django_db
+def test_attempt_draws_configured_number_of_active_questions_per_category():
+    student = User.objects.create_user("category-student")
+    exam = Exam.objects.create(title="English", duration_minutes=15, is_published=True)
+    ExamCategory.objects.create(
+        exam=exam, category=Question.Category.GRAMMAR, question_count=2
+    )
+    selected = []
+    for index in range(3):
+        question = Question.objects.create(
+            text=f"Grammar {index}",
+            category=Question.Category.GRAMMAR,
+            is_active=index < 2,
+        )
+        selected.append(question)
+        for position in range(1, 5):
+            Option.objects.create(
+                question=question,
+                text=f"Option {position}",
+                position=position,
+                is_correct=position == 1,
+            )
+
+    attempt = start_attempt(exam, student)
+
+    assert set(attempt.attempt_questions.values_list("source_question_id", flat=True)) == {
+        selected[0].pk,
+        selected[1].pk,
+    }
+    assert set(attempt.attempt_questions.values_list("points", flat=True)) == {
+        Decimal("50.00")
+    }
+    first_question = attempt.attempt_questions.first()
+    save_answer(attempt, first_question, first_question.options.get(position=1))
+    finalize_attempt(attempt)
+    attempt.refresh_from_db()
+    assert attempt.score == Decimal("50.00")
+    assert attempt.maximum_score == Decimal("100.00")
+
+
+@pytest.mark.django_db
+def test_exam_cannot_start_when_category_has_too_few_questions():
+    student = User.objects.create_user("short-bank")
+    exam = Exam.objects.create(title="English", duration_minutes=15, is_published=True)
+    ExamCategory.objects.create(
+        exam=exam, category=Question.Category.READING, question_count=1
+    )
+
+    with pytest.raises(ValidationError, match="Reading Comprehension"):
+        start_attempt(exam, student)
 
 
 @pytest.mark.django_db

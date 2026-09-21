@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.core.files.uploadedfile import SimpleUploadedFile
 from django.urls import reverse
 
-from exams.models import Exam, ExamQuestion, Question
+from exams.models import Exam, ExamCategory, Question
 
 CONTENT = b"""QUESTION: Sky color?
 OPTION: Green
@@ -19,7 +19,11 @@ def test_staff_previews_and_confirms_import(client):
     staff = User.objects.create_user("staff", password="Pass12345!", is_staff=True)
     client.force_login(staff)
     response = client.post(
-        reverse("question_imports:upload"), {"file": SimpleUploadedFile("q.txt", CONTENT)}
+        reverse("question_imports:upload"),
+        {
+            "file": SimpleUploadedFile("q.txt", CONTENT),
+            "category": Question.Category.VOCABULARY,
+        },
     )
     assert response.status_code == 200
     assert b"Sky color" in response.content
@@ -30,7 +34,10 @@ def test_staff_previews_and_confirms_import(client):
     assert exam.title == "Q"
     assert exam.is_published
     assert exam.created_by == staff
-    assert ExamQuestion.objects.filter(exam=exam, question=question, position=1).exists()
+    assert question.category == Question.Category.VOCABULARY
+    assert ExamCategory.objects.filter(
+        exam=exam, category=Question.Category.VOCABULARY, question_count=1
+    ).exists()
     assert b"Q" in client.get(reverse("exams:list")).content
 
 

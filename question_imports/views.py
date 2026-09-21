@@ -48,6 +48,7 @@ def upload(request):
                 ]
                 payload = {
                     "filename": file.name,
+                    "category": form.cleaned_data["category"],
                     "exam_id": form.cleaned_data["exam"].pk if form.cleaned_data["exam"] else None,
                     "items": [q.to_dict() for q in result.questions],
                 }
@@ -73,7 +74,11 @@ def confirm(request):
         Exam.objects.filter(pk=payload.get("exam_id")).first() if payload.get("exam_id") else None
     )
     batch = commit_import(
-        items=payload["items"], user=request.user, filename=payload["filename"], exam=exam
+        items=payload["items"],
+        user=request.user,
+        filename=payload["filename"],
+        category=payload["category"],
+        exam=exam,
     )
     request.session.pop(SESSION_KEY, None)
     messages.success(

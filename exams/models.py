@@ -6,7 +6,20 @@ from django.utils import timezone
 
 
 class Question(models.Model):
+    class Category(models.TextChoices):
+        VOCABULARY = "vocabulary", "Vocabulary in Context"
+        GRAMMAR = "grammar", "Grammar Challenge"
+        EXPRESSION = "expression", "Functional Expression"
+        READING = "reading", "Reading Comprehension"
+        CLOZE = "cloze", "Cloze Test"
+        SENTENCE = "sentence", "sentence arrangement and logic"
+        SYNONYM_ANTONYM = "synonym_antonym", "Synonym Antonym Formation"
+        HOTS = "hots", "HOTS & Olympiad Challenge"
+
     text = models.TextField()
+    category = models.CharField(
+        max_length=20, choices=Category.choices, default=Category.VOCABULARY
+    )
     explanation = models.TextField(blank=True)
     is_active = models.BooleanField(default=True)
     created_by = models.ForeignKey(
@@ -57,10 +70,12 @@ class Exam(models.Model):
     )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    questions = models.ManyToManyField(Question, through="ExamQuestion")
-
     def __str__(self):
         return self.title
+
+    @property
+    def total_questions(self):
+        return sum(item.question_count for item in self.exam_categories.all())
 
     def clean(self):
         errors = {}
@@ -86,18 +101,22 @@ class Exam(models.Model):
         )
 
 
-class ExamQuestion(models.Model):
-    exam = models.ForeignKey(Exam, on_delete=models.CASCADE, related_name="exam_questions")
-    question = models.ForeignKey(Question, on_delete=models.PROTECT, related_name="exam_questions")
-    position = models.PositiveIntegerField()
-    points = models.DecimalField(max_digits=7, decimal_places=2, default=1)
+class ExamCategory(models.Model):
+    exam = models.ForeignKey(Exam, on_delete=models.CASCADE, related_name="exam_categories")
+    category = models.CharField(max_length=20, choices=Question.Category.choices)
+    question_count = models.PositiveIntegerField()
 
     class Meta:
-        ordering = ["position"]
+        ordering = ["category"]
         constraints = [
-            models.UniqueConstraint(fields=["exam", "question"], name="unique_exam_question"),
-            models.UniqueConstraint(fields=["exam", "position"], name="unique_exam_position"),
+            models.UniqueConstraint(fields=["exam", "category"], name="unique_exam_category"),
+            models.CheckConstraint(
+                condition=Q(question_count__gt=0), name="positive_exam_category_question_count"
+            ),
         ]
+
+    def __str__(self):
+        return f"{self.get_category_display()}: {self.question_count}"
 
 
 class Attempt(models.Model):

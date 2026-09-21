@@ -6,18 +6,22 @@ from django.test import Client
 from django.urls import reverse
 from django.utils import timezone
 
-from exams.models import Attempt, Exam, ExamQuestion, Option, Question
+from exams.models import Attempt, Exam, ExamCategory, Option, Question
 from exams.services import finalize_attempt, start_attempt
 
 
 def exam_with_question(**kwargs):
-    question = Question.objects.create(text="Capital of France?")
+    question = Question.objects.create(
+        text="Capital of France?", category=Question.Category.VOCABULARY
+    )
     for index, text in enumerate(["Paris", "Rome", "Lima", "Oslo"], 1):
         Option.objects.create(question=question, text=text, position=index, is_correct=index == 1)
     exam = Exam.objects.create(
         title=kwargs.pop("title", "Geography"), duration_minutes=10, **kwargs
     )
-    ExamQuestion.objects.create(exam=exam, question=question, position=1)
+    ExamCategory.objects.create(
+        exam=exam, category=Question.Category.VOCABULARY, question_count=1
+    )
     return exam
 
 

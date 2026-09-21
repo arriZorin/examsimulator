@@ -5,7 +5,7 @@ from django.core.exceptions import PermissionDenied, ValidationError
 from django.db import transaction
 from django.utils import timezone
 
-from .models import Answer, Attempt, AttemptOption, AttemptQuestion
+from .models import Answer, Attempt, AttemptOption, AttemptQuestion, Question
 
 
 @transaction.atomic
@@ -28,29 +28,43 @@ def start_attempt(exam, student):
     )
     if completed >= exam.max_attempts:
         raise ValidationError("Maximum attempts reached.")
-    items = list(
-        exam.exam_questions.select_related("question").prefetch_related("question__options")
-    )
-    if not items:
+    category_settings = list(exam.exam_categories.all())
+    if not category_settings:
         raise ValidationError("This exam has no questions.")
-    for item in items:
-        item.question.validate_options()
+    questions = []
+    for setting in category_settings:
+        category_questions = list(
+            Question.objects.filter(category=setting.category, is_active=True)
+            .prefetch_related("options")
+            .order_by("?")[: setting.question_count]
+        )
+        if len(category_questions) < setting.question_count:
+            raise ValidationError(
+                f"Not enough active questions in {setting.get_category_display()}. "
+                f"Required: {setting.question_count}; available: {len(category_questions)}."
+            )
+        questions.extend(category_questions)
+    for question in questions:
+        question.validate_options()
+    points = (Decimal("100") / len(questions)).quantize(
+        Decimal("0.01"), rounding=ROUND_HALF_UP
+    )
     attempt = Attempt.objects.create(
         exam=exam,
         student=student,
         started_at=now,
         expires_at=now + timedelta(minutes=exam.duration_minutes),
     )
-    for item in items:
+    for position, question in enumerate(questions, 1):
         aq = AttemptQuestion.objects.create(
             attempt=attempt,
-            source_question=item.question,
-            position=item.position,
-            points=item.points,
-            question_text=item.question.text,
-            explanation=item.question.explanation,
+            source_question=question,
+            position=position,
+            points=points,
+            question_text=question.text,
+            explanation=question.explanation,
         )
-        for option in item.question.options.all():
+        for option in question.options.all():
             AttemptOption.objects.create(
                 attempt_question=aq,
                 source_option=option,
@@ -87,9 +101,7 @@ def finalize_attempt(attempt, expired=False):
     questions = list(
         attempt.attempt_questions.prefetch_related("options", "answer__selected_option")
     )
-    score = Decimal("0")
     correct = incorrect = unanswered = 0
-    maximum = sum((q.points for q in questions), Decimal("0"))
     for question in questions:
         try:
             answer = question.answer
@@ -102,14 +114,17 @@ def finalize_attempt(attempt, expired=False):
         answer.save(update_fields=["is_correct"])
         if answer.is_correct:
             correct += 1
-            score += question.points
         else:
             incorrect += 1
-    percentage = (
-        (score * 100 / maximum).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
-        if maximum
-        else Decimal("0")
+    maximum = Decimal("100.00") if questions else Decimal("0.00")
+    score = (
+        (Decimal(correct) * 100 / len(questions)).quantize(
+            Decimal("0.01"), rounding=ROUND_HALF_UP
+        )
+        if questions
+        else Decimal("0.00")
     )
+    percentage = score
     attempt.status = Attempt.Status.EXPIRED if expired else Attempt.Status.SUBMITTED
     attempt.submitted_at = now
     attempt.score = score

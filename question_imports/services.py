@@ -1,16 +1,15 @@
-from decimal import Decimal
 from pathlib import Path
 
 from django.db import transaction
 from django.utils import timezone
 
-from exams.models import Exam, ExamQuestion, Option, Question
+from exams.models import Exam, ExamCategory, Option, Question
 
 from .models import ImportBatch
 
 
 @transaction.atomic
-def commit_import(*, items, user, filename, exam=None):
+def commit_import(*, items, user, filename, category, exam=None):
     if exam is None:
         title = Path(filename).stem.replace("_", " ").replace("-", " ").strip().title()
         exam = Exam.objects.create(
@@ -21,12 +20,12 @@ def commit_import(*, items, user, filename, exam=None):
     batch = ImportBatch.objects.create(
         uploaded_by=user, exam=exam, original_filename=filename, question_count=len(items)
     )
-    next_position = (
-        exam.exam_questions.order_by("-position").values_list("position", flat=True).first() or 0
-    ) + 1
-    for offset, item in enumerate(items):
+    for item in items:
         question = Question.objects.create(
-            text=item["text"], explanation=item.get("explanation", ""), created_by=user
+            text=item["text"],
+            explanation=item.get("explanation", ""),
+            category=category,
+            created_by=user,
         )
         for position, text in enumerate(item["options"], 1):
             Option.objects.create(
@@ -36,12 +35,12 @@ def commit_import(*, items, user, filename, exam=None):
                 is_correct=position == item["correct_index"],
             )
         question.validate_options()
-        ExamQuestion.objects.create(
-            exam=exam,
-            question=question,
-            position=next_position + offset,
-            points=Decimal("1.00"),
-        )
+    setting, created = ExamCategory.objects.get_or_create(
+        exam=exam, category=category, defaults={"question_count": len(items)}
+    )
+    if not created:
+        setting.question_count += len(items)
+        setting.save(update_fields=["question_count"])
     batch.status = ImportBatch.Status.COMPLETED
     batch.completed_at = timezone.now()
     batch.save(update_fields=["status", "completed_at"])
