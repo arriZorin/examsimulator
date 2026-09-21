@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from .forms import OptionInlineFormSet
-from .models import Answer, Attempt, Exam, ExamCategory, Option, Question
+from .models import Answer, Attempt, AttemptQuestion, Exam, ExamCategory, Option, Question
 
 
 class OptionInline(admin.TabularInline):
@@ -31,5 +31,40 @@ class ExamAdmin(admin.ModelAdmin):
     inlines = (ExamCategoryInline,)
 
 
-admin.site.register(Attempt)
-admin.site.register(Answer)
+class AttemptQuestionInline(admin.TabularInline):
+    model = AttemptQuestion
+    fields = ("position", "question_text", "selected_answer", "answer_result")
+    readonly_fields = fields
+    extra = 0
+    can_delete = False
+    verbose_name = "Answer"
+    verbose_name_plural = "Answers"
+
+    def has_add_permission(self, request, obj=None):
+        return False
+
+    def get_queryset(self, request):
+        return super().get_queryset(request).select_related("answer__selected_option")
+
+    @admin.display(description="Selected answer")
+    def selected_answer(self, obj):
+        try:
+            selected_option = obj.answer.selected_option
+        except Answer.DoesNotExist:
+            return "Unanswered"
+        return selected_option.option_text if selected_option else "Unanswered"
+
+    @admin.display(boolean=True, description="Correct")
+    def answer_result(self, obj):
+        try:
+            return obj.answer.is_correct
+        except Answer.DoesNotExist:
+            return None
+
+
+@admin.register(Attempt)
+class AttemptAdmin(admin.ModelAdmin):
+    list_display = ("exam", "student", "status", "score", "started_at")
+    list_filter = ("status", "exam")
+    search_fields = ("student__username", "exam__title")
+    inlines = (AttemptQuestionInline,)
