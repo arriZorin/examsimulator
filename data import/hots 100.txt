@@ -1,0 +1,699 @@
+1. Alex is taller than Ben. Ben is taller than Chris. Chris is taller than David. Who is the shortest?
+a. Alex
+b. Ben
+c. Chris
+d. David
+answer: 4
+
+2. A train departs at 8:15 a.m. and the journey takes 45 minutes. What time does it arrive?
+a. 8:50 a.m.
+b. 9:00 a.m.
+c. 9:15 a.m.
+d. 9:30 a.m.
+answer: 2
+
+3. All mammals have hair. A dolphin is a mammal. What can be concluded?
+a. Dolphins do not have hair.
+b. All animals with hair are dolphins.
+c. A dolphin has hair.
+d. Dolphins are fish.
+answer: 3
+
+4. "Despite the heavy snow, the delivery driver arrived on time." What can we infer?
+a. The driver was late.
+b. The driver overcame a difficult situation.
+c. The driver got lost in the snow.
+d. It was a sunny day.
+answer: 2
+
+5. "The streets are flooded, and the wind is blowing fiercely." What most likely happened?
+a. A drought.
+b. A severe storm or hurricane.
+c. A sunny day at the beach.
+d. An earthquake.
+answer: 2
+
+6. A farmer has 15 sheep. All but 8 run away. How many are left?
+a. 7
+b. 8
+c. 15
+d. 0
+answer: 2
+
+7. "If I had brought my umbrella, I wouldn't be soaking wet." This sentence suggests that the speaker ....
+a. brought an umbrella
+b. is completely dry
+c. did not bring an umbrella
+d. likes getting wet
+answer: 3
+
+8. Which sentence has the closest meaning to "The test was so difficult that hardly anyone passed"?
+a. Everyone passed the test easily.
+b. The test was very easy.
+c. Almost everyone failed the test.
+d. Nobody took the test.
+answer: 3
+
+9. Read the clues: I have hands but I cannot clap. I have a face but I cannot smile. What am I?
+a. A robot
+b. A clock
+c. A monkey
+d. A mirror
+answer: 2
+
+10. The coach said, "Winning isn't just about talent; it's about teamwork and relentless practice." Which statement BEST summarizes the message?
+a. Talent is the only thing that matters.
+b. Hard work and cooperation are crucial for success.
+c. Practice is a waste of time if you have talent.
+d. Only the most talented teams win.
+answer: 2
+
+11. Emma is sitting to the right of Lily. Lily is sitting to the right of Mia. Who is sitting on the far left?
+a. Emma
+b. Lily
+c. Mia
+d. No one
+answer: 3
+
+12. John started reading a book at 2:30 p.m. He read for 1 hour and 20 minutes. What time did he stop?
+a. 3:30 p.m.
+b. 3:50 p.m.
+c. 4:00 p.m.
+d. 4:20 p.m.
+answer: 2
+
+13. No cats are dogs. Some dogs are brown. Which statement is definitely true?
+a. All cats are brown.
+b. Some dogs are not cats.
+c. All brown animals are dogs.
+d. No dogs are brown.
+answer: 2
+
+14. "She looked at her empty wallet and sighed heavily." What can we infer?
+a. She has plenty of money.
+b. She is happy about her new wallet.
+c. She has no money and is disappointed.
+d. She is going shopping.
+answer: 3
+
+15. "There is a strong smell of smoke and a loud alarm ringing in the building." What is the most logical action to take?
+a. Go to sleep.
+b. Evacuate the building immediately.
+c. Start cooking dinner.
+d. Ignore it.
+answer: 2
+
+16. A spider is climbing a 10-meter wall. Every day it climbs up 3 meters, and every night it slips down 2 meters. How many days will it take to reach the top?
+a. 10 days
+b. 9 days
+c. 8 days
+d. 7 days
+answer: 3
+
+17. "Unless you study hard, you will not pass the exam." This means ....
+a. Studying hard guarantees a perfect score.
+b. You can pass without studying.
+c. Hard work is a condition for passing.
+d. Exams are impossible to pass.
+answer: 3
+
+18. Which of these words is the odd one out?
+a. Apple
+b. Banana
+c. Carrot
+d. Orange
+answer: 3
+
+19. Read the clues: The more you take, the more you leave behind. What are they?
+a. Memories
+b. Footsteps
+c. Money
+d. Time
+answer: 2
+
+20. A sign reads: "Caution: Wet Floor." What is the primary purpose of this sign?
+a. To advertise a cleaning service.
+b. To warn people so they don't slip.
+c. To tell people to wash the floor.
+d. To decorate the hallway.
+answer: 2
+
+21. Tom is faster than Jerry but slower than Spike. Who is the fastest?
+a. Tom
+b. Jerry
+c. Spike
+d. They are all the same speed
+answer: 3
+
+22. A recipe calls for 2 cups of flour to make 10 pancakes. How many cups of flour are needed for 25 pancakes?
+a. 3 cups
+b. 4 cups
+c. 5 cups
+d. 6 cups
+answer: 3
+
+23. All squares are rectangles. All rectangles have four sides. What can be concluded?
+a. All squares have four sides.
+b. All rectangles are squares.
+c. Some squares have three sides.
+d. All four-sided shapes are squares.
+answer: 1
+
+24. "He was panting, sweating, and wearing a bright medal around his neck." What can we infer?
+a. He just woke up.
+b. He just finished and won a race.
+c. He is very sick.
+d. He stole a medal.
+answer: 2
+
+25. "People are wearing thick coats, scarves, and gloves." What is the season?
+a. Summer
+b. Spring
+c. Winter
+d. Autumn
+answer: 3
+
+26. If two typists can type two pages in two minutes, how many typists will it take to type eighteen pages in eighteen minutes?
+a. 2
+b. 9
+c. 18
+d. 36
+answer: 1
+
+27. "She would rather read a book than watch a movie." This implies ....
+a. She hates books.
+b. She prefers books over movies.
+c. She watches movies every day.
+d. She never reads.
+answer: 2
+
+28. Which sentence has the closest meaning to "It is not impossible that it will rain tomorrow"?
+a. It will definitely rain tomorrow.
+b. It is certain that it will not rain.
+c. It might rain tomorrow.
+d. It rained yesterday.
+answer: 3
+
+29. Read the clues: I am tall when I'm young, and I'm short when I'm old. What am I?
+a. A tree
+b. A candle
+c. A human
+d. A mountain
+answer: 2
+
+30. "Do not judge a book by its cover." What does this proverb mean?
+a. Books are too expensive.
+b. You shouldn't judge someone based on outward appearance.
+c. Covers are always misleading.
+d. You must read every book you find.
+answer: 2
+
+31. If Monday is two days after yesterday, what day is today?
+a. Sunday
+b. Monday
+c. Tuesday
+d. Wednesday
+answer: 1
+
+32. A movie starts at 7:45 p.m. and runs for 120 minutes. What time does it end?
+a. 9:00 p.m.
+b. 9:15 p.m.
+c. 9:45 p.m.
+d. 10:00 p.m.
+answer: 3
+
+33. Some teachers are strict. Mr. Smith is a teacher. What can we conclude?
+a. Mr. Smith is definitely strict.
+b. Mr. Smith is definitely not strict.
+c. Mr. Smith might or might not be strict.
+d. All teachers are Mr. Smith.
+answer: 3
+
+34. "The glass shattered on the floor, and a baseball rolled to a stop nearby." What most likely happened?
+a. An earthquake broke the glass.
+b. Someone threw a baseball through a window.
+c. The glass fell on its own.
+d. A bird flew into the window.
+answer: 2
+
+35. "The dog barked furiously at the shadow by the fence." What can we infer?
+a. The dog wanted to play.
+b. The dog sensed something or someone unfamiliar.
+c. The dog was hungry.
+d. The dog was asleep.
+answer: 2
+
+36. There are 5 apples in a basket. You take away 3. How many apples do you have?
+a. 5
+b. 3
+c. 2
+d. 0
+answer: 2
+
+37. "He barely managed to catch the train." This sentence implies that ....
+a. He missed the train.
+b. He arrived very early.
+c. He caught the train at the last possible moment.
+d. He didn't want to catch the train.
+answer: 3
+
+38. Which word does NOT belong in this group?
+a. Triangle
+b. Circle
+c. Square
+d. Rectangle
+answer: 2
+
+39. Read the clues: I have a tail and a head, but no body. What am I?
+a. A snake
+b. A coin
+c. A worm
+d. A kite
+answer: 2
+
+40. "Actions speak louder than words." What does this mean?
+a. You should shout when you speak.
+b. What you do is more important than what you say.
+c. People talk too much.
+d. Action movies are loud.
+answer: 2
+
+41. Nina is to the left of Sam. Sam is to the left of Jack. Who is in the middle?
+a. Nina
+b. Sam
+c. Jack
+d. Cannot be determined
+answer: 2
+
+42. If a machine produces 5 toys every 10 minutes, how many toys does it produce in an hour?
+a. 15
+b. 20
+c. 30
+d. 50
+answer: 3
+
+43. All cars have wheels. A bicycle has wheels. Therefore, a bicycle is a car. Is this conclusion correct?
+a. Yes, because both have wheels.
+b. No, having wheels does not make it a car.
+c. Yes, bicycles are a type of car.
+d. No, bicycles don't have wheels.
+answer: 2
+
+44. "She frowned at her test score and crumpled the paper." What can we infer?
+a. She got a perfect score.
+b. She is happy with her result.
+c. She did poorly on the test.
+d. She wants to recycle the paper.
+answer: 3
+
+45. "The leaves on the trees are turning red and orange, and falling to the ground." What season is approaching?
+a. Spring
+b. Summer
+c. Autumn
+d. Winter
+answer: 4
+
+46. You are in a race and you overtake the person in second place. What place are you in now?
+a. First
+b. Second
+c. Third
+d. Last
+answer: 2
+
+47. "It's highly unlikely that he will forget his own birthday." This means ....
+a. He will certainly forget.
+b. He probably won't forget.
+c. He hates his birthday.
+d. He doesn't know his birthday.
+answer: 2
+
+48. Which sentence has the closest meaning to "The manager called off the meeting"?
+a. The manager canceled the meeting.
+b. The manager scheduled a new meeting.
+c. The manager attended the meeting.
+d. The manager was late to the meeting.
+answer: 1
+
+49. Read the clues: What has words, but never speaks?
+a. A parrot
+b. A book
+c. A teacher
+d. A radio
+answer: 2
+
+50. "A penny saved is a penny earned." What is the main idea?
+a. Pennies are useless.
+b. Saving money is just as valuable as making money.
+c. You should spend all your pennies.
+d. Earning money is hard.
+answer: 2
+
+51. Tree is to Forest as Sand is to ....
+a. Water
+b. Beach
+c. Wind
+d. Sky
+answer: 2
+
+52. The sun sets at 6:15 p.m. It is currently 4:45 p.m. How much time is left until sunset?
+a. 1 hour
+b. 1 hour and 15 minutes
+c. 1 hour and 30 minutes
+d. 2 hours
+answer: 3
+
+53. If some A are B, and all B are C. What must be true?
+a. All A are C.
+b. Some A are C.
+c. No A are C.
+d. All C are A.
+answer: 2
+
+54. "The students cheered as the final bell of the year rang." What can we infer?
+a. They are excited for summer vacation.
+b. They are sad to leave school.
+c. There is a fire drill.
+d. They failed their exams.
+answer: 1
+
+55. "The audience gave a standing ovation at the end of the performance." What does this mean?
+a. The performance was terrible.
+b. The audience was tired of sitting.
+c. The performance was excellent and highly appreciated.
+d. The audience wanted to leave early.
+answer: 3
+
+56. A father is 35 years old and his son is 10 years old. In how many years will the father be exactly twice as old as his son?
+a. 5 years
+b. 10 years
+c. 15 years
+d. 20 years
+answer: 3
+
+57. "I would have visited you if I had known you were in town." This means the speaker ....
+a. visited them
+b. knew they were in town
+c. did not know they were in town and did not visit
+d. doesn't like visiting people
+answer: 3
+
+58. Which of these is a synonym for both "a piece of jewelry" and "to telephone someone"?
+a. Necklace
+b. Call
+c. Ring
+d. Bracelet
+answer: 3
+
+59. Read the clues: What belongs to you, but other people use it more than you do?
+a. Your money
+b. Your name
+c. Your house
+d. Your shoes
+answer: 2
+
+60. "Better late than never." This means ....
+a. It is good to always be late.
+b. Being late is terrible.
+c. Doing something late is better than not doing it at all.
+d. Never do anything late.
+answer: 3
+
+61. Circle is to Sphere as Square is to ....
+a. Rectangle
+b. Triangle
+c. Cube
+d. Line
+answer: 3
+
+62. A baker makes 4 batches of cookies in 2 hours. How many batches can he make in 7 hours at the same rate?
+a. 10
+b. 12
+c. 14
+d. 16
+answer: 3
+
+63. No birds are insects. A sparrow is a bird. Therefore, a sparrow is not an insect. Is this logical?
+a. Yes, the logic is sound.
+b. No, the logic is flawed.
+c. Yes, because sparrows eat insects.
+d. No, because sparrows are not birds.
+answer: 1
+
+64. "She shivered and pulled her thick coat tighter around her." What can we infer?
+a. She is very hot.
+b. She is feeling cold.
+c. She is frightened.
+d. Her coat is too big.
+answer: 2
+
+65. "The chef tasted the soup, smiled, and served it to the VIP guests." What can we infer?
+a. The soup was awful.
+b. The chef poisoned the soup.
+c. The chef was satisfied with how the soup tasted.
+d. The soup was too salty.
+answer: 3
+
+66. If you rearrange the letters "CIFAIPC", you would have the name of a/an ....
+a. Country
+b. Animal
+c. Ocean
+d. City
+answer: 3
+
+67. "Scarcely had the match started when it began to rain." This implies ....
+a. It rained long before the match started.
+b. The match started just as it began to rain.
+c. The match never started because of the rain.
+d. It didn't rain at all.
+answer: 2
+
+68. Which sentence has the closest meaning to "He is looking forward to the holiday"?
+a. He is dreading the holiday.
+b. He is looking backward at the holiday.
+c. He is excited about the upcoming holiday.
+d. He missed the holiday.
+answer: 3
+
+69. Read the clues: I can fly without wings. I can cry without eyes. Whenever I go, darkness flies. What am I?
+a. A bat
+b. A cloud
+c. The moon
+d. A ghost
+answer: 2
+
+70. "Don't put all your eggs in one basket." What does this mean?
+a. You should buy many baskets.
+b. Eggs are very fragile.
+c. Don't risk everything you have on a single plan or idea.
+d. Carry eggs carefully.
+answer: 3
+
+71. B is the brother of C. C is the sister of D. D is the son of E. What is the relationship between B and E?
+a. B is the father of E.
+b. B is the brother of E.
+c. B is the son of E.
+d. B is the uncle of E.
+answer: 3
+
+72. A tank is half full. If you add 15 liters of water, it becomes three-quarters full. What is the total capacity of the tank?
+a. 30 liters
+b. 45 liters
+c. 60 liters
+d. 90 liters
+answer: 3
+
+73. If all blips are blops, and some blops are bloops. Are all blips definitely bloops?
+a. Yes
+b. No, they cannot be
+c. Not necessarily
+d. Yes, they are the same
+answer: 3
+
+74. "The tires screeched loudly, followed by a loud crash." What most likely happened?
+a. A car race started.
+b. A car accident occurred.
+c. Someone is playing music.
+d. A plane took off.
+answer: 2
+
+75. "He wiped the sweat from his forehead and drank a whole bottle of water." What can we infer?
+a. He just woke up.
+b. He was cold.
+c. He was thirsty and likely just did something physically demanding.
+d. He doesn't like water.
+answer: 3
+
+76. What number comes next in the sequence: 2, 6, 12, 20, 30, ...?
+a. 36
+b. 40
+c. 42
+d. 48
+answer: 3
+
+77. "Had I known about the traffic, I would have taken a different route." This suggests ....
+a. The speaker took a different route.
+b. The speaker was stuck in traffic.
+c. The speaker knew about the traffic.
+d. The speaker never takes different routes.
+answer: 2
+
+78. Which of the following is NOT an antonym of "Expand"?
+a. Shrink
+b. Contract
+c. Grow
+d. Decrease
+answer: 3
+
+79. Read the clues: I go all around the world, but always stay in a corner. What am I?
+a. A stamp
+b. An airplane
+c. The sun
+d. A globe
+answer: 1
+
+80. "Every cloud has a silver lining." What does this mean?
+a. Clouds are made of silver.
+b. It is going to rain soon.
+c. Even bad situations have some positive aspects.
+d. You should always look at clouds.
+answer: 3
+
+81. If a pen costs $1.50 and a notebook costs $3.00, how much change will you get from a $10 bill if you buy 2 pens and 1 notebook?
+a. $3.00
+b. $4.00
+c. $4.50
+d. $6.00
+answer: 2
+
+82. A plane flying from New York to London takes 7 hours. If it leaves at 9:00 p.m., what time will it arrive (ignoring time zones)?
+a. 2:00 a.m.
+b. 3:00 a.m.
+c. 4:00 a.m.
+d. 5:00 a.m.
+answer: 3
+
+83. Only honest people are trusted. Sam is not honest. Therefore, Sam is not trusted. Is this logically correct?
+a. Yes
+b. No
+c. Only sometimes
+d. Cannot be determined
+answer: 1
+
+84. "The plants in the garden are brown, brittle, and drooping." What can we infer?
+a. They have been watered too much.
+b. They are very healthy.
+c. They lack water and are dying.
+d. They are fake plants.
+answer: 3
+
+85. "The boy opened his gift, his eyes widened, and he jumped up and down." What can we infer?
+a. He disliked the gift.
+b. He was scared of the gift.
+c. He was thrilled with the gift.
+d. The gift was empty.
+answer: 3
+
+86. How many months have 28 days?
+a. 1
+b. 6
+c. 12
+d. None
+answer: 3
+
+87. "It's about time you cleaned your room." This means ....
+a. You are currently cleaning your room.
+b. Your room is already clean.
+c. You should have cleaned your room earlier.
+d. It takes time to clean a room.
+answer: 3
+
+88. Which word has a similar relationship: Day is to Sun as Night is to ....
+a. Star
+b. Dark
+c. Sleep
+d. Moon
+answer: 4
+
+89. Read the clues: The person who makes it, sells it. The person who buys it never uses it. The person who uses it never knows they're using it. What is it?
+a. A bed
+b. A coffin
+c. A secret
+d. A car
+answer: 2
+
+90. "Bite off more than you can chew." What does this idiom mean?
+a. To eat too much food quickly.
+b. To take on a task that is way too big or difficult for you.
+c. To chew food very slowly.
+d. To give up easily.
+answer: 2
+
+91. If South-East becomes North, and North-East becomes West, what will West become?
+a. North-East
+b. North-West
+c. South-East
+d. South-West
+answer: 3
+
+92. A meeting was supposed to start at 10:15 a.m. but was delayed by 35 minutes. When did it finally start?
+a. 10:45 a.m.
+b. 10:50 a.m.
+c. 11:00 a.m.
+d. 11:15 a.m.
+answer: 2
+
+93. All fish can swim. A penguin can swim. Does this mean a penguin is a fish?
+a. Yes, because it swims.
+b. No, sharing a characteristic doesn't make them the same category.
+c. Yes, penguins live in the water.
+d. No, because penguins fly.
+answer: 2
+
+94. "He kept checking his watch and pacing back and forth near the bus stop." What can we infer?
+a. He is waiting for someone or something and feels impatient.
+b. He is doing his daily exercise.
+c. His watch is broken.
+d. He doesn't want to get on the bus.
+answer: 1
+
+95. "She applied sunscreen, grabbed a towel, and headed out." Where is she likely going?
+a. To the library.
+b. To a ski resort.
+c. To the beach or pool.
+d. To a restaurant.
+answer: 3
+
+96. A farmer has a fox, a goose, and a bag of beans. He needs to cross a river but his boat only holds him and one item. If he leaves the fox with the goose, the fox eats the goose. If he leaves the goose with the beans, the goose eats the beans. What must he take across first?
+a. The fox
+b. The goose
+c. The beans
+d. Himself
+answer: 2
+
+97. "Hardly had I closed my eyes when the phone rang." This means ....
+a. The phone rang long after I fell asleep.
+b. I closed my eyes and the phone never rang.
+c. The phone rang immediately after I closed my eyes.
+d. I couldn't close my eyes because of the phone.
+answer: 3
+
+98. Which sentence is grammatically correct and logically sound?
+a. He walked the dog, ate dinner, and is reading a book.
+b. He walked the dog, eating dinner, and read a book.
+c. He walked the dog, ate dinner, and read a book.
+d. He walking the dog, ate dinner, and reads a book.
+answer: 3
+
+99. Read the clues: I have a neck but no head, two arms but no hands. What am I?
+a. A shirt
+b. A sweater
+c. A bottle
+d. Both A and B
+answer: 4
+
+100. "Rome wasn't built in a day." What is the moral of this proverb?
+a. Romans were slow builders.
+b. Important work takes time and patience to complete.
+c. You should build cities in a day.
+d. Don't start big projects.
+answer: 2

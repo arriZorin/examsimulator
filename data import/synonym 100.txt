@@ -1,0 +1,699 @@
+1. The synonym of "begin" is ....
+a. finish
+b. start
+c. stop
+d. end
+answer: 2
+
+2. The antonym of "huge" is ....
+a. enormous
+b. giant
+c. tiny
+d. big
+answer: 3
+
+3. The synonym of "difficult" is ....
+a. hard
+b. easy
+c. simple
+d. light
+answer: 1
+
+4. The antonym of "brave" is ....
+a. bold
+b. courageous
+c. fearful
+d. strong
+answer: 3
+
+5. The noun form of "decide" is ....
+a. deciding
+b. decided
+c. decision
+d. decidedly
+answer: 3
+
+6. The noun form of "honest" is ....
+a. honestly
+b. honesty
+c. honestness
+d. unhonest
+answer: 2
+
+7. The adjective form of "nature" is ....
+a. naturally
+b. natural
+c. natured
+d. naturing
+answer: 2
+
+8. A person who "writes" books is a ....
+a. writing
+b. writor
+c. written
+d. writer
+answer: 4
+
+9. "Homeless" means ....
+a. having many homes
+b. without a home
+c. loving a home
+d. building a home
+answer: 2
+
+10. Which prefix makes the opposite of "agree"?
+a. un-
+b. in-
+c. dis-
+d. re-
+answer: 3
+
+11. The synonym of "reply" is ....
+a. answer
+b. question
+c. ask
+d. talk
+answer: 1
+
+12. The antonym of "empty" is ....
+a. blank
+b. hollow
+c. clear
+d. full
+answer: 4
+
+13. The synonym of "error" is ....
+a. truth
+b. mistake
+c. fact
+d. correct
+answer: 2
+
+14. The antonym of "accept" is ....
+a. receive
+b. take
+c. reject
+d. get
+answer: 3
+
+15. The noun form of "inform" is ....
+a. informal
+b. information
+c. informing
+d. informed
+answer: 2
+
+16. The noun form of "active" is ....
+a. actively
+b. activate
+c. activity
+d. action
+answer: 3
+
+17. The adjective form of "beauty" is ....
+a. beautify
+b. beautifully
+c. beautiful
+d. beauties
+answer: 3
+
+18. A person who "acts" in a movie is an ....
+a. actor
+b. action
+c. act
+d. acting
+answer: 1
+
+19. "Fearless" means ....
+a. full of fear
+b. without fear
+c. afraid
+d. scary
+answer: 2
+
+20. Which prefix makes the opposite of "fair"?
+a. in-
+b. dis-
+c. un-
+d. re-
+answer: 3
+
+21. The synonym of "smart" is ....
+a. dull
+b. clever
+c. slow
+d. foolish
+answer: 2
+
+22. The antonym of "ancient" is ....
+a. old
+b. classic
+c. modern
+d. antique
+answer: 3
+
+23. The synonym of "rich" is ....
+a. wealthy
+b. poor
+c. broke
+d. sad
+answer: 1
+
+24. The antonym of "expensive" is ....
+a. costly
+b. high
+c. cheap
+d. valuable
+answer: 3
+
+25. The noun form of "educate" is ....
+a. educative
+b. educating
+c. education
+d. educated
+answer: 3
+
+26. The noun form of "sad" is ....
+a. sadly
+b. sadness
+c. sadden
+d. saddest
+answer: 2
+
+27. The adjective form of "color" is ....
+a. coloring
+b. colorful
+c. colorly
+d. colors
+answer: 2
+
+28. A person who "drives" a car is a ....
+a. driven
+b. driving
+c. driver
+d. drove
+answer: 3
+
+29. "Painless" means ....
+a. causing pain
+b. feeling pain
+c. without pain
+d. very painful
+answer: 3
+
+30. Which prefix makes the opposite of "visible"?
+a. in-
+b. un-
+c. dis-
+d. mis-
+answer: 1
+
+31. The synonym of "glad" is ....
+a. angry
+b. upset
+c. happy
+d. crying
+answer: 3
+
+32. The antonym of "always" is ....
+a. sometimes
+b. never
+c. forever
+d. often
+answer: 2
+
+33. The synonym of "fast" is ....
+a. slow
+b. quick
+c. heavy
+d. lazy
+answer: 2
+
+34. The antonym of "polite" is ....
+a. kind
+b. nice
+c. rude
+d. good
+answer: 3
+
+35. The noun form of "perform" is ....
+a. performer
+b. performing
+c. performance
+d. performed
+answer: 3
+
+36. The noun form of "dark" is ....
+a. darkness
+b. darkly
+c. darken
+d. darker
+answer: 1
+
+37. The adjective form of "harm" is ....
+a. harmly
+b. harmful
+c. harming
+d. harms
+answer: 2
+
+38. A person who "manages" a store is a ....
+a. manage
+b. manager
+c. managing
+d. managed
+answer: 2
+
+39. "Useful" means ....
+a. full of use
+b. without use
+c. not usable
+d. never used
+answer: 1
+
+40. Which prefix means "do again"?
+a. un-
+b. dis-
+c. re-
+d. in-
+answer: 3
+
+41. The synonym of "mad" is ....
+a. angry
+b. calm
+c. peaceful
+d. joyful
+answer: 1
+
+42. The antonym of "narrow" is ....
+a. thin
+b. wide
+c. tight
+d. small
+answer: 2
+
+43. The synonym of "silent" is ....
+a. loud
+b. noisy
+c. quiet
+d. speaking
+answer: 3
+
+44. The antonym of "arrive" is ....
+a. come
+b. enter
+c. depart
+d. reach
+answer: 3
+
+45. The noun form of "create" is ....
+a. creative
+b. creation
+c. creating
+d. creatively
+answer: 2
+
+46. The noun form of "weak" is ....
+a. weakly
+b. weaken
+c. weakness
+d. weaker
+answer: 3
+
+47. The adjective form of "center" is ....
+a. central
+b. centering
+c. centrally
+d. centers
+answer: 1
+
+48. A person who "builds" houses is a ....
+a. building
+b. builder
+c. built
+d. build
+answer: 2
+
+49. "Joyful" means ....
+a. without joy
+b. sad
+c. full of joy
+d. crying
+answer: 3
+
+50. Which prefix makes the opposite of "understand"?
+a. dis-
+b. un-
+c. mis-
+d. in-
+answer: 3
+
+51. The synonym of "beautiful" is ....
+a. ugly
+b. pretty
+c. terrible
+d. bad
+answer: 2
+
+52. The antonym of "rough" is ....
+a. bumpy
+b. hard
+c. smooth
+d. rocky
+answer: 3
+
+53. The synonym of "tired" is ....
+a. energetic
+b. awake
+c. exhausted
+d. fresh
+answer: 3
+
+54. The antonym of "guilty" is ....
+a. innocent
+b. blamed
+c. wrong
+d. bad
+answer: 1
+
+55. The noun form of "govern" is ....
+a. governing
+b. government
+c. governed
+d. governor
+answer: 2
+
+56. The noun form of "stupid" is ....
+a. stupidly
+b. stupidity
+c. stupider
+d. stupidest
+answer: 2
+
+57. The adjective form of "magic" is ....
+a. magically
+b. magical
+c. magicless
+d. magics
+answer: 2
+
+58. A person who "sings" is a ....
+a. sing
+b. sang
+c. singer
+d. song
+answer: 3
+
+59. "Endless" means ....
+a. having an end
+b. without end
+c. ending soon
+d. stopping
+answer: 2
+
+60. Which suffix is used to make an adverb?
+a. -ly
+b. -ness
+c. -tion
+d. -ment
+answer: 1
+
+61. The synonym of "famous" is ....
+a. unknown
+b. well-known
+c. hidden
+d. quiet
+answer: 2
+
+62. The antonym of "victory" is ....
+a. win
+b. success
+c. defeat
+d. glory
+answer: 3
+
+63. The synonym of "choose" is ....
+a. select
+b. reject
+c. deny
+d. ignore
+answer: 1
+
+64. The antonym of "careful" is ....
+a. cautious
+b. careless
+c. safe
+d. alert
+answer: 2
+
+65. The noun form of "develop" is ....
+a. developing
+b. development
+c. developed
+d. developer
+answer: 2
+
+66. The noun form of "sick" is ....
+a. sickly
+b. sickness
+c. sicken
+d. sicker
+answer: 2
+
+67. The adjective form of "music" is ....
+a. musical
+b. musically
+c. musician
+d. musics
+answer: 1
+
+68. A person who "bakes" bread is a ....
+a. baking
+b. baked
+c. baker
+d. bakery
+answer: 3
+
+69. "Careful" means ....
+a. without care
+b. full of care
+c. not caring
+d. lazy
+answer: 2
+
+70. Which prefix makes the opposite of "honest"?
+a. in-
+b. un-
+c. dis-
+d. mis-
+answer: 3
+
+71. The synonym of "gather" is ....
+a. collect
+b. scatter
+c. break
+d. spread
+answer: 1
+
+72. The antonym of "boring" is ....
+a. dull
+b. tired
+c. exciting
+d. plain
+answer: 3
+
+73. The synonym of "protect" is ....
+a. attack
+b. harm
+c. guard
+d. destroy
+answer: 3
+
+74. The antonym of "public" is ....
+a. open
+b. private
+c. shared
+d. known
+answer: 2
+
+75. The noun form of "enjoy" is ....
+a. enjoyable
+b. enjoying
+c. enjoyment
+d. enjoyed
+answer: 3
+
+76. The noun form of "fit" is ....
+a. fitly
+b. fitness
+c. fitten
+d. fitter
+answer: 2
+
+77. The adjective form of "peace" is ....
+a. peaceful
+b. peacefully
+c. peaced
+d. peacing
+answer: 1
+
+78. A person who "paints" pictures is a ....
+a. painting
+b. paint
+c. painter
+d. painted
+answer: 3
+
+79. "Tasteless" means ....
+a. having a good taste
+b. having no flavor
+c. very delicious
+d. sweet
+answer: 2
+
+80. Which suffix turns "child" into a noun meaning a stage of life?
+a. -ish
+b. -ren
+c. -hood
+d. -ly
+answer: 3
+
+81. The synonym of "ruin" is ....
+a. build
+b. fix
+c. destroy
+d. make
+answer: 3
+
+82. The antonym of "sweet" is ....
+a. sour
+b. sugary
+c. nice
+d. delicious
+answer: 1
+
+83. The synonym of "leap" is ....
+a. walk
+b. run
+c. jump
+d. sit
+answer: 3
+
+84. The antonym of "deep" is ....
+a. bottom
+b. low
+c. shallow
+d. heavy
+answer: 3
+
+85. The noun form of "measure" is ....
+a. measuring
+b. measurement
+c. measured
+d. measurable
+answer: 2
+
+86. The noun form of "good" is ....
+a. goodly
+b. goodness
+c. better
+d. best
+answer: 2
+
+87. The adjective form of "wood" is ....
+a. wooden
+b. woods
+c. woody
+d. wooding
+answer: 1
+
+88. A person who "travels" is a ....
+a. traveling
+b. travel
+c. traveler
+d. traveled
+answer: 3
+
+89. "Hopeful" means ....
+a. without hope
+b. feeling optimistic
+c. hopeless
+d. giving up
+answer: 2
+
+90. Which prefix makes the opposite of "connect"?
+a. un-
+b. in-
+c. dis-
+d. re-
+answer: 3
+
+91. The synonym of "shout" is ....
+a. whisper
+b. yell
+c. talk
+d. sing
+answer: 2
+
+92. The antonym of "freeze" is ....
+a. melt
+b. chill
+c. ice
+d. cold
+answer: 1
+
+93. The synonym of "frequent" is ....
+a. rare
+b. often
+c. never
+d. seldom
+answer: 2
+
+94. The antonym of "strict" is ....
+a. firm
+b. hard
+c. gentle
+d. harsh
+answer: 3
+
+95. The noun form of "argue" is ....
+a. arguing
+b. argued
+c. argument
+d. arguable
+answer: 3
+
+96. The noun form of "lazy" is ....
+a. lazily
+b. laziness
+c. lazier
+d. laziest
+answer: 2
+
+97. The adjective form of "courage" is ....
+a. courageously
+b. courageous
+c. couraging
+d. couraged
+answer: 2
+
+98. A person who "invents" things is an ....
+a. inventor
+b. invention
+c. invent
+d. inventing
+answer: 1
+
+99. "Worthless" means ....
+a. having no value
+b. having a lot of value
+c. expensive
+d. very important
+answer: 1
+
+100. Which suffix is used to denote a person's profession or role (like in "direct")?
+a. -ion
+b. -or
+c. -ment
+d. -ness
+answer: 2

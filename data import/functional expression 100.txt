@@ -1,0 +1,699 @@
+1. "Good morning, Mr. Smith." The best response is ....
+a. Good night.
+b. Good morning.
+c. Goodbye.
+d. See you later.
+answer: 2
+
+2. You are leaving your friend's house at night to go to sleep. You say ....
+a. Good evening.
+b. Good afternoon.
+c. Good night.
+d. Hello.
+answer: 3
+
+3. "How do you do?" The correct response is ....
+a. I am fine.
+b. How do you do?
+c. Nice to meet you too.
+d. See you later.
+answer: 2
+
+4. "How are you today?"
+a. I am very well, thank you.
+b. I am reading a book.
+c. She is fine.
+d. Yes, I am.
+answer: 1
+
+5. You want to introduce yourself. You say ....
+a. Let me introduce my friend.
+b. Hello, my name is Alex.
+c. Do you know Alex?
+d. Nice to meet him.
+answer: 2
+
+6. "See you tomorrow." The best response is ....
+a. Hello.
+b. See you.
+c. Good morning.
+d. Thank you.
+answer: 2
+
+7. You accidentally step on someone's foot. You should say ....
+a. Excuse me.
+b. Thank you.
+c. I'm sorry.
+d. Never mind.
+answer: 3
+
+8. "I apologize for coming late." The best response is ....
+a. That's all right.
+b. Thank you.
+c. You are welcome.
+d. Good job.
+answer: 1
+
+9. "I am sorry I lost your pen." 
+a. I agree with you.
+b. No problem. I have another one.
+c. Congratulations.
+d. Yes, please.
+answer: 2
+
+10. "Please forgive me for breaking the vase."
+a. It's okay, don't worry about it.
+b. I am happy for you.
+c. You must do it.
+d. I don't know.
+answer: 1
+
+11. "Thank you very much for your help." The best response is ....
+a. I am sorry.
+b. You're welcome.
+c. Please.
+d. Yes, I do.
+answer: 2
+
+12. Your friend gives you a birthday present. You say ....
+a. I don't like it.
+b. Thank you, it's beautiful.
+c. Excuse me.
+d. Sorry to hear that.
+answer: 2
+
+13. "Thanks for lending me your umbrella."
+a. Never mind.
+b. Don't mention it.
+c. I am sorry.
+d. Congratulations.
+answer: 2
+
+14. You want to ask your teacher a question. You say ....
+a. Get out of the way.
+b. Excuse me, sir. May I ask a question?
+c. Look at me!
+d. Do you have a question?
+answer: 2
+
+15. "May I go to the restroom?" This expression is used to ....
+a. give permission
+b. ask for permission
+c. apologize
+d. give an instruction
+answer: 2
+
+16. "Could I borrow your dictionary?" The best response to give permission is ....
+a. Yes, of course. Here it is.
+b. No, I am sorry.
+c. Thank you.
+d. I don't agree.
+answer: 1
+
+17. "Do you mind if I sit here?" The best response to allow them is ....
+a. Yes, I do.
+b. No, not at all. Please have a seat.
+c. I am sitting.
+d. You're welcome.
+answer: 2
+
+18. "May I use your phone?" "..., I need to make a call right now."
+a. Yes, sure
+b. I'm sorry, you can't
+c. Please do
+d. Go ahead
+answer: 2
+
+19. "Would you like a cup of tea?" This expression is used to ....
+a. offer something
+b. ask for help
+c. apologize
+d. give advice
+answer: 1
+
+20. "Can I help you carry those bags?" 
+a. Yes, please. That's very kind of you.
+b. I don't know you.
+c. Congratulations!
+d. See you later.
+answer: 1
+
+21. "Do you want some more cake?" "..., I am full."
+a. Yes, please
+b. No, thank you
+c. Of course
+d. I would love to
+answer: 2
+
+22. "Shall I open the door for you?"
+a. Yes, you shall.
+b. Thank you, that would be great.
+c. I don't want it.
+d. Never mind.
+answer: 2
+
+23. "I think English is a fun subject." The best expression of agreement is ....
+a. I completely agree with you.
+b. I disagree.
+c. I don't think so.
+d. You are wrong.
+answer: 1
+
+24. "In my opinion, we should go to the beach." "..., it's going to rain."
+a. I agree with you
+b. That's a good idea
+c. I don't think that's a good idea
+d. Exactly
+answer: 3
+
+25. "I feel that reading is better than playing games." "..., reading makes us smart."
+a. I disagree
+b. I am with you on that
+c. I don't agree
+d. No way
+answer: 2
+
+26. "We need to clean the classroom." "I agree." The bold sentence expresses ....
+a. disagreement
+b. agreement
+c. offering help
+d. asking permission
+answer: 2
+
+27. "Happy birthday, Sarah!" 
+a. Thank you!
+b. I'm sorry.
+c. Good luck.
+d. See you.
+answer: 1
+
+28. Your sister passed her final exam. You should say ....
+a. Get well soon.
+b. Congratulations on your success!
+c. Happy New Year.
+d. I am sorry to hear that.
+answer: 2
+
+29. "Congratulations on winning the singing contest!"
+a. I don't care.
+b. Thank you very much.
+c. You're welcome.
+d. Don't mention it.
+answer: 2
+
+30. Your friend bought a new dress. To compliment her, you say ....
+a. That's a terrible dress.
+b. What a beautiful dress!
+c. I have a dress too.
+d. Did you buy it?
+answer: 2
+
+31. "You look amazing in that shirt!"
+a. Thanks for the compliment.
+b. I'm sorry.
+c. No problem.
+d. Of course.
+answer: 1
+
+32. Your friend is sick in the hospital. You say ....
+a. Happy birthday!
+b. Good luck!
+c. Get well soon!
+d. Congratulations!
+answer: 3
+
+33. "My dog died yesterday." The best response is ....
+a. That's great!
+b. I'm so sorry to hear that.
+c. Congratulations.
+d. Thank you.
+answer: 2
+
+34. "I have a terrible headache."
+a. You should take some medicine.
+b. You must eat ice cream.
+c. Congratulations.
+d. I am happy.
+answer: 1
+
+35. "Please close the door." This sentence expresses ....
+a. invitation
+b. instruction
+c. prohibition
+d. apology
+answer: 2
+
+36. "Don't touch the wet paint!" This sentence is a ....
+a. greeting
+b. prohibition
+c. suggestion
+d. congratulation
+answer: 2
+
+37. "Open your book to page 10."
+a. I am sorry.
+b. Yes, sir.
+c. Good morning.
+d. Thank you.
+answer: 2
+
+38. "You must not park here." The sign means you are .... to park there.
+a. allowed
+b. asked
+c. forbidden
+d. invited
+answer: 3
+
+39. "Could you tell me where the bank is?" This expression is used to ....
+a. ask for direction
+b. ask for time
+c. ask for permission
+d. offer help
+answer: 1
+
+40. "Go straight ahead and turn left." This is an expression of ....
+a. giving opinion
+b. giving direction
+c. asking for help
+d. offering help
+answer: 2
+
+41. "What time is it?"
+a. It is very hot.
+b. It is ten o'clock.
+c. It is Monday.
+d. I am ten years old.
+answer: 2
+
+42. "Excuse me, how much is this bag?"
+a. It is fifty dollars.
+b. It is very heavy.
+c. It is mine.
+d. It is in the store.
+answer: 1
+
+43. "What does your mother do?" 
+a. She is cooking.
+b. She is a teacher.
+c. She is my mother.
+d. She is fine.
+answer: 2
+
+44. "Where do you live?"
+a. I live with my parents.
+b. I live in London.
+c. I live happily.
+d. I live tomorrow.
+answer: 2
+
+45. "How do you go to school?"
+a. By bus.
+b. At 7 AM.
+c. With my friends.
+d. In the classroom.
+answer: 1
+
+46. "Would you like to come to my party?"
+a. Yes, I am.
+b. I'd love to, thank you.
+c. No, I wasn't.
+d. Yes, I do.
+answer: 2
+
+47. "I'm sorry, but I can't join you for dinner." This expresses ....
+a. accepting an invitation
+b. declining an invitation
+c. asking for an invitation
+d. offering food
+answer: 2
+
+48. "Let's go to the cinema tonight!"
+a. That sounds like a great idea.
+b. You are welcome.
+c. I am sorry for you.
+d. Thank you.
+answer: 1
+
+49. "Do you like playing football?"
+a. Yes, I am.
+b. No, I didn't.
+c. Yes, I do.
+d. Yes, I was.
+answer: 3
+
+50. "What is your favorite food?"
+a. I like blue.
+b. I like fried rice.
+c. I like reading.
+d. I like cats.
+answer: 2
+
+51. "Can you swim?"
+a. Yes, I do.
+b. Yes, I can.
+c. No, I don't.
+d. No, I am not.
+answer: 2
+
+52. "You look tired. You should take a rest." The bold sentence expresses ....
+a. suggestion
+b. obligation
+c. prohibition
+d. permission
+answer: 1
+
+53. "I think you had better see a doctor." 
+a. I disagree.
+b. Thanks for your advice.
+c. Congratulations.
+d. Never mind.
+answer: 2
+
+54. "What do you think of this book?"
+a. It is on the table.
+b. I think it is very interesting.
+c. It is mine.
+d. I bought it yesterday.
+answer: 2
+
+55. "Could you pass the salt, please?"
+a. Yes, I do.
+b. Here you are.
+c. I like salt.
+d. Thank you.
+answer: 2
+
+56. "Do you know where the post office is?"
+a. Yes, it's next to the hospital.
+b. I am posting a letter.
+c. The post office is closed.
+d. No, I don't like it.
+answer: 1
+
+57. "I didn't understand the lesson." "..., I will help you."
+a. Don't worry
+b. Good luck
+c. Thank you
+d. Congratulations
+answer: 1
+
+58. "Are you okay?" "..., I just feel a bit dizzy."
+a. Yes, I am fine
+b. No, I'm not
+c. I am sorry
+d. Thank you
+answer: 1
+
+59. "It's very cold here. ...?" "Sure, go ahead."
+a. Can you turn on the fan
+b. May I close the window
+c. Should I open the door
+d. Would you like some ice cream
+answer: 2
+
+60. "I failed my math test." "..."
+a. That's wonderful!
+b. You must study harder next time.
+c. Thank you very much.
+d. See you later.
+answer: 2
+
+61. "I promise I will not be late again." This is an expression of ....
+a. making a promise
+b. offering help
+c. giving advice
+d. asking permission
+answer: 1
+
+62. "Can I borrow your pen?" "..., I'm using it."
+a. Yes, here it is
+b. Sure, go ahead
+c. I'm sorry, but you can't
+d. No problem
+answer: 3
+
+63. "Would you mind closing the door?" "..."
+a. Not at all.
+b. Yes, please.
+c. No, thank you.
+d. Yes, I am.
+answer: 1
+
+64. "Let me help you with your luggage." "..., I can manage."
+a. Yes, please
+b. No, thanks
+c. I agree
+d. You're welcome
+answer: 2
+
+65. "You must wear a uniform to school." This is an expression of ....
+a. obligation
+b. suggestion
+c. prohibition
+d. sympathy
+answer: 1
+
+66. "Is it okay if I sit beside you?"
+a. Yes, you do.
+b. Yes, it is.
+c. Of course.
+d. I am sorry.
+answer: 3
+
+67. "How was your trip?" "..."
+a. It's tomorrow.
+b. It was fantastic!
+c. I am going to Bali.
+d. By plane.
+answer: 2
+
+68. "Nice to meet you." "..."
+a. Nice to meet you too.
+b. Thank you.
+c. Goodbye.
+d. I am fine.
+answer: 1
+
+69. "I've got a new job!" "..."
+a. That's great news! Congratulations!
+b. I'm sorry to hear that.
+c. Get well soon.
+d. Be careful.
+answer: 1
+
+70. "Look out! The floor is wet." This is a/an ....
+a. warning
+b. apology
+c. invitation
+d. suggestion
+answer: 1
+
+71. "Can you tell me the way to the station?" "..."
+a. It's half past two.
+b. Walk straight and turn right.
+c. I like taking the train.
+d. The station is big.
+answer: 2
+
+72. "What's the matter with you?" "..."
+a. I have a stomachache.
+b. It doesn't matter.
+c. I am reading.
+d. She is a nurse.
+answer: 1
+
+73. "Would you like me to make you some coffee?" "..., that would be lovely."
+a. No, thanks
+b. Yes, please
+c. I'm sorry
+d. Don't bother
+answer: 2
+
+74. "I think the movie was boring." "..., it was quite exciting."
+a. I agree with you
+b. I don't agree with you
+c. That's right
+d. Absolutely
+answer: 2
+
+75. "Don't forget to lock the door." "..."
+a. I won't.
+b. Thank you.
+c. Yes, I am.
+d. I agree.
+answer: 1
+
+76. "Have a safe trip!" "..."
+a. You're welcome.
+b. Thank you!
+c. I'm sorry.
+d. Congratulations!
+answer: 2
+
+77. "Excuse me, is this seat taken?" "..., you can sit here."
+a. Yes, it is
+b. No, it isn't
+c. I don't know
+d. Of course
+answer: 2
+
+78. "I'm really sorry for losing your book." "..."
+a. Don't worry about it. I have another one.
+b. You're welcome.
+c. Thanks.
+d. Good luck.
+answer: 1
+
+79. "What do you suggest we do tonight?" "..."
+a. I went to the park.
+b. Let's watch a movie.
+c. I am fine.
+d. Yes, we do.
+answer: 2
+
+80. "Could you speak a little louder, please?" "..."
+a. Yes, I can hear you.
+b. Sure, I'm sorry.
+c. No, thank you.
+d. You're welcome.
+answer: 2
+
+81. "I'm afraid I have to leave now." "..."
+a. Thanks for coming. See you!
+b. Welcome.
+c. Congratulations.
+d. Don't mention it.
+answer: 1
+
+82. "Do you mind if I turn on the TV?" "..., I want to watch the news."
+a. No, go ahead
+b. Yes, I do
+c. I am sorry
+d. Please don't
+answer: 1
+
+83. "May I have your attention, please?" The expression is used to ....
+a. ask for attention
+b. give attention
+c. check understanding
+d. ask for opinion
+answer: 1
+
+84. "Do you understand what I am saying?" "..."
+a. Yes, I am.
+b. Yes, I understand.
+c. No, I don't think so.
+d. Thank you.
+answer: 2
+
+85. "What a beautiful painting!" This expression is used to give ....
+a. compliment
+b. suggestion
+c. permission
+d. apology
+answer: 1
+
+86. "Would you rather have tea or coffee?" "..."
+a. I like both.
+b. I'd prefer tea, please.
+c. Yes, please.
+d. No, thank you.
+answer: 2
+
+87. "You should brush your teeth before bed." This is an expression of ....
+a. offering
+b. advising
+c. thanking
+d. apologizing
+answer: 2
+
+88. "I will help you wash the car." "..."
+a. That's very kind of you.
+b. I am sorry.
+c. Never mind.
+d. See you.
+answer: 1
+
+89. "Be careful when crossing the street." "..."
+a. Thank you, I will.
+b. I don't care.
+c. You're welcome.
+d. I am sorry.
+answer: 1
+
+90. "What is your hobby?" "..."
+a. I am a student.
+b. I like swimming.
+c. I have a book.
+d. I live in Paris.
+answer: 2
+
+91. "Where were you last night?" "..."
+a. I am at home.
+b. I was at the cinema.
+c. I will go there.
+d. I go to school.
+answer: 2
+
+92. "Could you open the window?" "..."
+a. Yes, please.
+b. Certainly.
+c. Thank you.
+d. No, you can't.
+answer: 2
+
+93. "I am so thirsty." "..."
+a. Would you like a glass of water?
+b. You should eat something.
+c. Let's go to sleep.
+d. I am hungry too.
+answer: 1
+
+94. "How much sugar do you want in your coffee?" "..."
+a. Two spoons, please.
+b. It's sweet.
+c. Yes, I want it.
+d. No, thank you.
+answer: 1
+
+95. "When is your birthday?" "..."
+a. I am fifteen.
+b. It's on May 10th.
+c. I like cake.
+d. It's today.
+answer: 2
+
+96. "Why are you crying?" "..."
+a. I lost my wallet.
+b. I am happy.
+c. Yes, I am.
+d. I am smiling.
+answer: 1
+
+97. "You're stepping on my toe." "..."
+a. Thank you.
+b. Oh, I'm sorry!
+c. You're welcome.
+d. See you.
+answer: 2
+
+98. "Do you have any pets?" "..."
+a. Yes, I have a cat.
+b. No, I am not.
+c. I like animals.
+d. Yes, I do yesterday.
+answer: 1
+
+99. "How long does it take to get to the airport?" "..."
+a. About 30 kilometers.
+b. About 45 minutes.
+c. By taxi.
+d. It is big.
+answer: 2
+
+100. "Good luck with your exam tomorrow!" "..."
+a. I am sorry.
+b. Thank you so much!
+c. Never mind.
+d. You too.
+answer: 2
